@@ -31,7 +31,7 @@ require (
 	github.com/thanos-io/thanos v0.32.5
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d
 	golang.org/x/net v0.20.0
-	golang.org/x/sync v0.5.0
+	golang.org/x/sync v0.6.0
 	google.golang.org/protobuf v1.32.0
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.29.1
