@@ -1,13 +1,14 @@
 module github.com/prometheus-operator/prometheus-operator
 
 go 1.21
+toolchain go1.22.2
 
 require (
 	github.com/alecthomas/kingpin/v2 v2.4.0
 	github.com/alecthomas/units v0.0.0-20231202071711-9a357b53e9c9
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2
 	github.com/blang/semver/v4 v4.0.0
-	github.com/brancz/kube-rbac-proxy v0.15.0
+	github.com/brancz/kube-rbac-proxy v0.17.1
 	github.com/cespare/xxhash/v2 v2.2.0
 	github.com/distribution/reference v0.5.0
 	github.com/evanphx/json-patch/v5 v5.9.0
@@ -30,7 +31,7 @@ require (
 	github.com/stretchr/testify v1.8.4
 	github.com/thanos-io/thanos v0.34.1
 	golang.org/x/exp v0.0.0-20231206192017-f3f8817b8deb
-	golang.org/x/net v0.20.0
+	golang.org/x/net v0.25.0
 	golang.org/x/sync v0.6.0
 	google.golang.org/protobuf v1.32.0
 	gopkg.in/yaml.v2 v2.4.0
@@ -39,7 +40,7 @@ require (
 	k8s.io/apimachinery v0.29.1
 	k8s.io/client-go v0.29.1
 	k8s.io/component-base v0.29.1
-	k8s.io/klog/v2 v2.110.1
+	k8s.io/klog/v2 v2.120.1
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
 	sigs.k8s.io/controller-runtime v0.16.3
 	sigs.k8s.io/yaml v1.4.0
@@ -71,7 +72,7 @@ require (
 	github.com/evanphx/json-patch v5.6.0+incompatible // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/go-logfmt/logfmt v0.6.0 // indirect
-	github.com/go-logr/logr v1.3.0 // indirect
+	github.com/go-logr/logr v1.4.1 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-openapi/analysis v0.21.4 // indirect
 	github.com/go-openapi/errors v0.20.4 // indirect
@@ -112,7 +113,7 @@ require (
 	github.com/prometheus/client_model v0.5.0 // indirect
 	github.com/prometheus/common/sigv4 v0.1.0 // indirect
 	github.com/prometheus/procfs v0.12.0 // indirect
-	github.com/spf13/cobra v1.7.0 // indirect
+	github.com/spf13/cobra v1.8.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/xhit/go-str2duration/v2 v2.1.0 // indirect
 	go.mongodb.org/mongo-driver v1.13.1 // indirect
@@ -121,11 +122,11 @@ require (
 	go.opentelemetry.io/otel/trace v1.21.0 // indirect
 	go.uber.org/atomic v1.11.0 // indirect
 	go.uber.org/goleak v1.3.0 // indirect
-	golang.org/x/crypto v0.18.0 // indirect
+	golang.org/x/crypto v0.23.0 // indirect
 	golang.org/x/oauth2 v0.16.0 // indirect
-	golang.org/x/sys v0.16.0 // indirect
-	golang.org/x/term v0.16.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
+	golang.org/x/sys v0.20.0 // indirect
+	golang.org/x/term v0.20.0 // indirect
+	golang.org/x/text v0.15.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
 	google.golang.org/appengine v1.6.8 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
